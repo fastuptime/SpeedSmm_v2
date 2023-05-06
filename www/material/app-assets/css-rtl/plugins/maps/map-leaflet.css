@@ -1,0 +1,24 @@
+.leaflet-map {
+  height : 400px;
+  z-index : 1;
+}
+
+html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-left {
+  right : 0;
+  left : unset;
+}
+
+html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-left .leaflet-control-zoom, html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-left .leaflet-control-layers {
+  margin-left : 0;
+  margin-right : 10px;
+}
+
+html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-right {
+  left : 0;
+  right : unset;
+}
+
+html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-right .leaflet-control-zoom, html[data-textdirection='rtl'] .leaflet-map .leaflet-control-container .leaflet-right .leaflet-control-layers {
+  margin-left : 10px;
+  margin-right : 0;
+}

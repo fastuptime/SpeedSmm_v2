@@ -1,0 +1,3086 @@
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:227
+    225|                 <h5>Servisler</h5>
+    226|                 <select class="form-control" id="select_service" style="margin-top: 20px;">
+ >> 227|                   <% if (service == "all") { %>
+    228|                     <option value="all" selected>Tümü</option>
+    229|                   <% } else { %>
+    230|                     <option value="<%= service %>"><%= service %></option>
+
+service is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":58:8)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:57:17
+    at runMicrotasks (<anonymous>)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:227
+    225|                 <h5>Servisler</h5>
+    226|                 <select class="form-control" id="select_service" style="margin-top: 20px;">
+ >> 227|                   <% if (service == "all") { %>
+    228|                     <option value="all" selected>Tümü</option>
+    229|                   <% } else { %>
+    230|                     <option value="<%= service %>"><%= service %></option>
+
+service is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":58:8)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:57:17
+    at runMicrotasks (<anonymous>)
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Chintumonga3652@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Chintumonga3652@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Chintumonga3652@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Chintumonga3652@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Chintumonga3652@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Chintumonga3652@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Chintumonga3652@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Chintumonga3652@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Chintumonga3652@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mertgacha@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mertgacha@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mertgacha@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mertgacha@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mertgacha@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mertgacha@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mertgacha@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz2@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz2@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz2@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(item.includes(search)) { %>
+    302|                                     <tr role="row" class="odd">
+    303|                                         <td>
+    304|                                             <%= item.service %>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:25)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(item.includes(search)) { %>
+    302|                                     <tr role="row" class="odd">
+    303|                                         <td>
+    304|                                             <%= item.service %>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:25)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(item.includes(search)) { %>
+    302|                                     <tr role="row" class="odd">
+    303|                                         <td>
+    304|                                             <%= item.service %>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:25)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:301
+    299|                           <% liste.forEach(item => { %>
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+ >> 301|                                 <% if(search !== "all") { %>
+    302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+
+search is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":78:8)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Error: Failed to lookup view "dashboard/pages/pages_dash/xxxx.ejs" in views directory "./www"
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:34:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:302
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+    301|                                 <% if(search !== "all") { %>
+ >> 302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+    305|                                                 <%= item.service %>
+
+item.includes is not a function
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":81:16)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+TypeError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:302
+    300|                             <% if(service.toLowerCase() == item.category.toLowerCase() || service == "all") { %>
+    301|                                 <% if(search !== "all") { %>
+ >> 302|                                     <% if(item.includes(search)) { %>
+    303|                                         <tr role="row" class="odd">
+    304|                                             <td>
+    305|                                                 <%= item.service %>
+
+item.includes is not a function
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":81:16)
+    at Array.forEach (<anonymous>)
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":72:14)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `hidayetpasa09@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `hidayetpasa09@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `hidayetpasa09@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'hidayetpasa09@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'hidayetpasa09@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `hidayetpasa09@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `hidayetpasa09@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `hidayetpasa09@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'hidayetpasa09@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'hidayetpasa09@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'earningpakofficial.online@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'earningpakofficial.online@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'earningpakofficial.online@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'earningpakofficial.online@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'earningpakofficial.online@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'earningpakofficial.online@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'earningpakofficial.online@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'earningpakofficial.online@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'earningpakofficial.online@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'earningpakofficial.online@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `earningpakofficial.online@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'earningpakofficial.online@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'earningpakofficial.online@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/model.js:5233
+  const serverSelectionError = new ServerSelectionError();
+                               ^
+
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (/home/fastuxkc/smm/node_modules/mongoose/lib/model.js:5233:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/query.js:4914:21
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/fastuxkc/smm/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at model.Query.exec (/home/fastuxkc/smm/node_modules/mongoose/lib/query.js:4913:10)
+    at model.Query.Query.then (/home/fastuxkc/smm/node_modules/mongoose/lib/query.js:4996:15) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster0-shard-00-00.om4n9.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-00.om4n9.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 7224509684,
+        lastWriteDate: 0,
+        error: MongoNetworkTimeoutError: connection <monitor> to 35.157.136.60:27017 timed out
+            at Timeout._onTimeout (/home/fastuxkc/smm/node_modules/mongodb/lib/cmap/connection.js:151:23)
+            at listOnTimeout (node:internal/timers:559:17)
+            at processTimers (node:internal/timers:502:7) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [Symbol(beforeHandshake)]: false
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster0-shard-00-01.om4n9.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-01.om4n9.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 7224518656,
+        lastWriteDate: 0,
+        error: MongoNetworkTimeoutError: connection <monitor> to 3.120.67.154:27017 timed out
+            at Timeout._onTimeout (/home/fastuxkc/smm/node_modules/mongodb/lib/cmap/connection.js:151:23)
+            at listOnTimeout (node:internal/timers:559:17)
+            at processTimers (node:internal/timers:502:7) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [Symbol(beforeHandshake)]: false
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster0-shard-00-02.om4n9.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-02.om4n9.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 7224524949,
+        lastWriteDate: 0,
+        error: MongoNetworkTimeoutError: connection <monitor> to 18.197.225.34:27017 timed out
+            at Timeout._onTimeout (/home/fastuxkc/smm/node_modules/mongodb/lib/cmap/connection.js:151:23)
+            at listOnTimeout (node:internal/timers:559:17)
+            at processTimers (node:internal/timers:502:7) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [Symbol(beforeHandshake)]: false
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ehtqbs-shard-0',
+    maxElectionId: ObjectId {
+      [Symbol(id)]: Buffer(12) [Uint8Array] [
+        127, 255, 255, 255, 0,
+          0,   0,   0,   0, 0,
+          1, 239
+      ]
+    },
+    maxSetVersion: 7,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mustafacadan3542@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mustafacadan3542@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mustafacadan3542@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mustafacadan3542@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mustafacadan3542@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mustafacadan3542@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `mustafacadan3542@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'mustafacadan3542@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'mustafacadan3542@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+Error: Failed to lookup view "dashboard/pages/services.ejs" in views directory "./www"
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:97:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Failed to lookup view "dashboard/pages/services.ejs" in views directory "./www"
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:97:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:227
+    225|                 <h5>Servisler</h5>
+    226|                 <select class="form-control" id="select_service" style="margin-top: 20px;">
+ >> 227|                   <% if (service == "all") { %>
+    228|                     <option value="all" selected>Tümü</option>
+    229|                   <% } else { %>
+    230|                     <option value="<%= service %>"><%= service %></option>
+
+service is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":58:8)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:60:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:227
+    225|                 <h5>Servisler</h5>
+    226|                 <select class="form-control" id="select_service" style="margin-top: 20px;">
+ >> 227|                   <% if (service == "all") { %>
+    228|                     <option value="all" selected>Tümü</option>
+    229|                   <% } else { %>
+    230|                     <option value="<%= service %>"><%= service %></option>
+
+service is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":58:8)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:60:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:227
+    225|                 <h5>Servisler</h5>
+    226|                 <select class="form-control" id="select_service" style="margin-top: 20px;">
+ >> 227|                   <% if (service == "all") { %>
+    228|                     <option value="all" selected>Tümü</option>
+    229|                   <% } else { %>
+    230|                     <option value="<%= service %>"><%= service %></option>
+
+service is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":58:8)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:60:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs:227
+    225|                 <h5>Servisler</h5>
+    226|                 <select class="form-control" id="select_service" style="margin-top: 20px;">
+ >> 227|                   <% if (service == "all") { %>
+    228|                     <option value="all" selected>Tümü</option>
+    229|                   <% } else { %>
+    230|                     <option value="<%= service %>"><%= service %></option>
+
+service is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/services.ejs":58:8)
+    at services (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/dashboard.js:60:17
+    at runMicrotasks (<anonymous>)
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userIPHistory.1.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.2.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.3.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.7.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.13.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.18.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.21.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.28.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.29.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.30.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.37.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.38.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.39.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.41.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.42.userIPHistoryIP: Path `userIPHistoryIP` is required., userIPHistory.43.userIPHistoryIP: Path `userIPHistoryIP` is required.
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at EmbeddedDocument.Subdocument.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/types/subdocument.js:225:12)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    'userIPHistory.1.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.2.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.3.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.7.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.13.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.18.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.21.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.28.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.29.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.30.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.37.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.38.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.39.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.41.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.42.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    'userIPHistory.43.userIPHistoryIP': ValidatorError: Path `userIPHistoryIP` is required.
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1330:7)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `userIPHistoryIP` is required.',
+        type: 'required',
+        path: 'userIPHistoryIP',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'userIPHistoryIP',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+ReferenceError: /home/fastuxkc/smm/www/dashboard/pages/pages_dash/admin/bildirim_gonder_admin.ejs:222
+    220|           <!-- Container-fluid Ends-->
+    221|           <br>
+ >> 222|           <% if(user == "NaN") { %>
+    223|             <div class="card" style="margin-top: 30px;">
+    224|               <div class="card-header pb-0">
+    225|                   <h5>Kullanıcıyı Bul</h5>
+
+user is not defined
+    at eval ("/home/fastuxkc/smm/www/dashboard/pages/pages_dash/admin/bildirim_gonder_admin.ejs":58:8)
+    at bildirim_gonder_admin (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/fastuxkc/smm/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/fastuxkc/smm/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/fastuxkc/smm/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/fastuxkc/smm/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/fastuxkc/smm/node_modules/express/lib/response.js:1039:7)
+    at /home/fastuxkc/smm/www/routes/admin_panel.js:42:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+/home/fastuxkc/smm/www/routes/admin_panel.js:58
+            await hesap.findOneAndUpdate({ _id: userç_id }, { $push: { 
+                                                ^
+
+ReferenceError: userç_id is not defined
+    at /home/fastuxkc/smm/www/routes/admin_panel.js:58:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+/home/fastuxkc/smm/www/routes/admin_panel.js:58
+            await hesap.findOneAndUpdate({ _id: userç_id }, { $push: { 
+                                                ^
+
+ReferenceError: userç_id is not defined
+    at /home/fastuxkc/smm/www/routes/admin_panel.js:58:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+/home/fastuxkc/smm/www/routes/admin_panel.js:58
+            await hesap.findOneAndUpdate({ _id: userç_id }, { $push: { 
+                                                ^
+
+ReferenceError: userç_id is not defined
+    at /home/fastuxkc/smm/www/routes/admin_panel.js:58:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'abdullahylcn21@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'abdullahylcn21@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'abdullahylcn21@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'abdullahylcn21@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `abdullahylcn21@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'abdullahylcn21@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'abdullahylcn21@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Muhtorovmuhammadjon2005@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Muhtorovmuhammadjon2005@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Muhtorovmuhammadjon2005@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz3@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz3@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `ibrahimhakkioksuz3@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'ibrahimhakkioksuz3@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'ibrahimhakkioksuz3@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'eray_inam@hotmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'eray_inam@hotmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'eray_inam@hotmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'eray_inam@hotmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'eray_inam@hotmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'eray_inam@hotmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `eray_inam@hotmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'eray_inam@hotmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'eray_inam@hotmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `bzmadrex49@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `bzmadrex49@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `bzmadrex49@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'bzmadrex49@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'bzmadrex49@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `jajdjdjs@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `jajdjdjs@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `jajdjdjs@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'jajdjdjs@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'jajdjdjs@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `jajdjdjs@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `jajdjdjs@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `jajdjdjs@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'jajdjdjs@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'jajdjdjs@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `Admin@pcnaid.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `Admin@pcnaid.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `Admin@pcnaid.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'Admin@pcnaid.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'Admin@pcnaid.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: line 9: /activate: No such file or directory
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: line 9: /activate: No such file or directory
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: retry: Resource temporarily unavailable
+/home/fastuxkc/nodevenv/smm/16/bin/node: fork: Resource temporarily unavailable
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'alperenyanhesapfb@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'alperenyanhesapfb@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'alperenyanhesapfb@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'alperenyanhesapfb@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'alperenyanhesapfb@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'alperenyanhesapfb@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'alperenyanhesapfb@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'alperenyanhesapfb@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `alperenyanhesapfb@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'alperenyanhesapfb@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'alperenyanhesapfb@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `safakozturk522@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `safakozturk522@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `safakozturk522@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'safakozturk522@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'safakozturk522@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `safakozturk522@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `safakozturk522@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `safakozturk522@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'safakozturk522@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'safakozturk522@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'erdogmusonur20@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'erdogmusonur20@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'erdogmusonur20@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'erdogmusonur20@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'erdogmusonur20@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'erdogmusonur20@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `erdogmusonur20@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'erdogmusonur20@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'erdogmusonur20@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'emreguler31313@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'emreguler31313@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'emreguler31313@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'emreguler31313@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'emreguler31313@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'emreguler31313@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}
+/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123
+    this.$__.validationError = new ValidationError(this);
+                               ^
+
+ValidationError: hesaplar_smm validation failed: userMail: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+    at model.Document.invalidate (/home/fastuxkc/smm/node_modules/mongoose/lib/document.js:3123:32)
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/document.js:2911:17
+    at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errors: {
+    userMail: ValidatorError: Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`
+        at validate (/home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1346:13)
+        at /home/fastuxkc/smm/node_modules/mongoose/lib/schematype.js:1322:24
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      properties: {
+        message: 'Error, expected `userMail` to be unique. Value: `emreguler31313@gmail.com`',
+        type: 'unique',
+        validator: [Function (anonymous)],
+        path: 'userMail',
+        value: 'emreguler31313@gmail.com'
+      },
+      kind: 'unique',
+      path: 'userMail',
+      value: 'emreguler31313@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'hesaplar_smm validation failed'
+}

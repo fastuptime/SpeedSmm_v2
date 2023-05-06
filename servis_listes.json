@@ -1,0 +1,8 @@
+[
+    {
+        "name": "turkpaneli",
+        "key": "API_KEY",
+        "kisaltmasi": "tp",
+        "url": "https://turkpaneli.com/api/v2"
+    }
+]

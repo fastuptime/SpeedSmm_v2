@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<%= config.site.description %>">
+    <meta name="keywords" content="<%= config.site.keywords %>">
+    <link href='<%= config.site.icon %>' type='image/x-icon' rel='icon'/>
+    <link href='<%= config.site.icon %>' type='image/x-icon' rel='shortcut icon'/>
+    <title><%= config.site.title %> - Giriş Yap!</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/icofont.min.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/sweetalert2.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/vendors/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/style.css">
+    <link id="color" rel="stylesheet" href="/dash_assets/assets/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="/dash_assets/assets/css/responsive.css">
+    <%- config.site.g_tag %>
+    <%- config.site.livechat %>
+  </head>
+  <body>
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+      <div class="loader">
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+        <div class="loader-ball"></div>
+      </div>
+    </div>
+    <!-- Loader ends-->
+    <!-- page-wrapper Start-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-7"><img class="bg-img-cover bg-center" src="/dash_assets/assets/images/login/2.jpg" alt="looginpage"></div>
+          <div class="col-xl-5 p-0">
+            <div class="login-card">
+              <form class="theme-form login-form" method="post" action="/login">
+                <h4>Giriş</h4>
+                <h6>Tekrardan Hoş Geldiniz!</h6>
+                <div class="form-group">
+                  <label>E-posta</label>
+                  <div class="input-group"><span class="input-group-text"><i class="icofont-ui-email"></i></span>
+                    <input class="form-control" type="email" name="email" required="" placeholder="Test@gmail.com">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Şifre</label>
+                  <div class="input-group"><span class="input-group-text"><i class="icofont-ui-password"></i></span>
+                    <input class="form-control" type="password" name="password" required="" placeholder="*********">
+                    <div class="show-hide"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <a class="link" href="/auth/forget-password">Şifremi unuttum?</a>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-primary btn-block" type="submit">Giriş Yap</button>
+                </div>
+                <div class="login-social-title">                
+                  <h5>Şununla Giriş Yap</h5>
+                </div>
+                <div class="form-group">
+                  <ul class="login-social">
+                  </ul>
+                </div>
+                <p>Hesabınız yok mu?<a class="ms-2" href="/register">Hesap Oluştur</a></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- page-wrapper end-->
+    <!-- latest jquery-->
+    <script src="/dash_assets/assets/js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="/dash_assets/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- feather icon js-->
+    <script src="/dash_assets/assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="/dash_assets/assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- scrollbar js-->
+    <!-- Sidebar jquery-->
+    <script src="/dash_assets/assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="/dash_assets/assets/js/script.js"></script>
+    <!-- login js-->
+    <!-- Plugin used-->
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script>
+        let urlParams = new URLSearchParams(window.location.search);
+        if(urlParams.get('error') == 'true') {
+         //?message=xxx
+         let msg = urlParams.get('message');
+            Swal.fire({
+               icon: 'error',
+               title: 'Oops...',
+               text: `${msg}`,
+               footer: 'Tüm Hakları Saklıdır.'
+            })
+        }
+        if(urlParams.get('success') == 'true') {
+         //?message=xxx
+         let msg = urlParams.get('message');
+            Swal.fire({
+               icon: 'success',
+               title: 'Başarılı',
+               text: `${msg}`,
+               footer: 'Tüm Hakları Saklıdır.'
+            })
+        }
+      </script>
+  </body>
+
+<!-- Mirrored from admin.pixelstrap.com/zeta/theme/login_one.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Feb 2022 05:43:46 GMT -->
+</html>

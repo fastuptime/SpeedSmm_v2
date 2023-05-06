@@ -1,0 +1,133 @@
+.noUi-target {
+  background-color : rgba(115, 103, 240, 0.12);
+  border-width : 0;
+  box-shadow : none;
+  border-radius : 1rem;
+}
+
+.noUi-target.noUi-connect {
+  box-shadow : none;
+}
+
+.noUi-horizontal {
+  height : 6px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width : 1rem;
+  height : 1rem;
+  cursor : pointer;
+  left : -0.5rem;
+  top : -4px;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom : 135% !important;
+}
+
+.noUi-pips {
+  color : #B9B9C3;
+}
+
+.noUi-marker {
+  background : #EBE9F1;
+}
+
+.noUi-value {
+  font-size : 0.857rem;
+}
+
+.noUi-marker-horizontal.noUi-marker, .noUi-marker-horizontal.noUi-marker-large {
+  height : 8px;
+}
+
+.noUi-handle {
+  box-shadow : none;
+  border : none;
+  border-radius : 50%;
+  background : #FFFFFF;
+  border : 2px solid #7367F0;
+}
+
+.noUi-handle:after, .noUi-handle:before {
+  display : none;
+}
+
+.noUi-connect {
+  background : #7367F0;
+  box-shadow : none;
+}
+
+.noUi-tooltip {
+  -webkit-transform : translate(10%, -50%);
+      -ms-transform : translate(10%, -50%);
+          transform : translate(10%, -50%);
+  font-size : 0.857rem;
+  border : none;
+  color : #6E6B7B;
+  background-color : #F8F8F8;
+  padding : 0.1718rem 0.35rem;
+  font-weight : 500;
+}
+
+.noUi-vertical {
+  display : inline-block;
+  width : 6px;
+}
+
+.noUi-vertical .noUi-origin {
+  left : auto;
+}
+
+.noUi-vertical .noUi-handle {
+  width : 1rem;
+  height : 1rem;
+  top : -0.375rem;
+  right : -0.3rem;
+}
+
+.noUi-vertical .noUi-tooltip {
+  left : 135% !important;
+}
+
+.hover_val {
+  font : 400 12px Arial;
+  color : #6E6B7B;
+  display : block;
+  margin : 15px 0;
+}
+
+.noUi-handle:focus {
+  outline : 0;
+}
+
+_:-ms-lang(x), .slider-select {
+  -ms-flex : 0 0 10%;
+      flex : 0 0 10%;
+  max-width : 10%;
+}
+
+.dark-layout .noUi-handle {
+  background-color : #283046;
+}
+
+.dark-layout .noUi-tooltip {
+  background-color : #161D31;
+  color : #B4B7BD;
+}
+
+.dark-layout .noUi-pips, .dark-layout .noUi-value {
+  color : #B4B7BD;
+}
+
+.dark-layout .noUi-marker {
+  background : #3B4253;
+}
+
+[data-textdirection='rtl'] .noUi-txt-dir-rtl.noUi-horizontal .noUi-origin {
+  left : auto;
+}
+
+[data-textdirection='rtl'] .noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+  right : -3px;
+}

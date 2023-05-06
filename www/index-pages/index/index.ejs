@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from expert-themes.com/html/meto/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Jun 2021 18:30:08 GMT -->
+<head>
+<meta charset="utf-8">
+<!-- Stylesheets -->
+<link href="/anasayfa/css/bootstrap.css" rel="stylesheet">
+<link href="/anasayfa/css/style.css" rel="stylesheet">
+<link href="/anasayfa/css/responsive.css" rel="stylesheet">
+<!-- Primary Meta Tags -->
+<meta name="description" content="<%= config.site.description %>">
+<meta name="keywords" content="<%= config.site.keywords %>">
+<link href='<%= config.site.icon %>' type='image/x-icon' rel='icon'/>
+<link href='<%= config.site.icon %>' type='image/x-icon' rel='shortcut icon'/>
+<title><%= config.site.title %> </title>
+<!-- Color Switcher Mockup -->
+<link href="/anasayfa/css/color-switcher-design.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="/anasayfa/images/logo.png" type="image/x-icon">
+<link rel="icon" href="/anasayfa/images/logo.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<%- config.site.g_tag %>
+<%- config.site.livechat %>
+</head>
+
+<body class="hidden-bar-wrapper">
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader 
+    <div class="preloader"></div>
+ 	-->
+ 	<!-- Main Header-->
+    <header class="main-header header-style-three">
+    	
+		<!-- Header Top -->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+				
+					<!-- Top Left -->
+					<div class="top-left pull-left">
+						<!-- Page Nav -->
+						<ul class="page-nav">
+							<li><a href="/terms">Kullanım Koşulları</a></li>
+							<li><a href="/discord">Discord</a></li>
+							<li><a href="#faqs">SSS</a></li>
+						</ul>
+					</div>
+					
+					<!-- Top Right -->
+                    <div class="top-right pull-right">
+					
+						<!-- Info List -->
+                        <ul class="info-list">
+                           <!--
+							<li><span class="icon flaticon-maps-and-flags"></span> 576d University St, Seattle, UK</li>-->
+							<li><span class="icon flaticon-email-4"></span><a href="mailto:<%= config.site.support_mail %>"> TR <%= config.site.support_mail %></a></li>
+						</ul>
+						
+                    </div>
+					
+                </div>
+            </div>
+        </div>
+        <style>
+         .logo_yazisi {
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+         }
+         .logo_yazisi:hover {
+            color: #fff;
+         }
+        </style>
+		<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="inner-container clearfix">
+                	
+                	<!--
+                     <div class="pull-left logo-box">
+                    	<div class="logo"><a href="/" class="logo_yazisi"> <%= config.site.name %></a></div>
+                    </div>
+                  -->
+                    <div class="pull-left logo-box">
+                    	   <div class="logo"></div>
+                    </div>
+					<div class="nav-outer clearfix">
+						<!--Mobile Navigation Toggler-->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+						<!-- Main Menu -->
+                  <style>
+                     .left_git {
+                        float: left;
+                        margin-left: 10px;
+                     }
+                  </style>
+						<nav class="main-menu navbar-expand-md left_git">
+							<div class="navbar-header">
+								<!-- Toggle Button -->    	
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="current dropdown">
+                              <a href="#">AnaSayfa</a>
+									</li>
+                           <!--
+                              <li class="dropdown"><a href="#">Hakkımızda</a>
+                                 <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                    <li><a href="price.html">Price</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="testimonial.html">Testimonial</a></li>
+                                    <li><a href="comming-soon.html">Comming Soon</a></li>
+                                 </ul>
+                              </li>
+                           -->
+									<li class="dropdown">
+                                        <a href="/services">Fiyat Listesi</a>
+									</li>
+									<!--
+                              <li class="dropdown"><a href="#">Projects</a>
+                                 <ul>
+                                    <li><a href="projects.html">Projects</a></li>
+                                    <li><a href="projects-detail.html">Projects Detail</a></li>
+                                 </ul>
+                              </li>
+                              <li class="dropdown"><a href="#">Blog</a>
+                                 <ul>
+                                    <li><a href="blog.html">Our Blog</a></li>
+                                    <li><a href="blog-classic.html">Blog Classic</a></li>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                    <li><a href="not-found.html">Not Found</a></li>
+                                 </ul>
+                              </li>
+                           -->
+						   <% if(account === "NaN") { %>
+								<div class="btn-box" style="margin-top: 7px;">
+									<a href="/register" class="quote-btn btn-style-three"><span class="txt">Kayıt Ol</span></a>
+								</div>
+							<% } %>
+
+								</ul>
+							</div>
+						</nav>
+						
+						<!-- Main Menu End-->
+						<div class="outer-box clearfix">
+						
+							<!-- 
+							<div class="cart-box">
+								<div class="dropdown">
+									<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-1"></span><span class="total-cart">2</span></button>
+									<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu3">
+
+										<div class="cart-product">
+											<div class="inner">
+												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+												<div class="image"><img src="/anasayfa/images/resource/post-thumb-1.jpg" alt="" /></div>
+												<h3><a href="shop-single.html">Flying Ninja</a></h3>
+												<div class="quantity-text">Quantity 1</div>
+												<div class="price">$99.00</div>
+											</div>
+										</div>
+										<div class="cart-product">
+											<div class="inner">
+												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+												<div class="image"><img src="/anasayfa/images/resource/post-thumb-2.jpg" alt="" /></div>
+												<h3><a href="shop-single.html">Patient Ninja</a></h3>
+												<div class="quantity-text">Quantity 1</div>
+												<div class="price">$99.00</div>
+											</div>
+										</div>
+										<div class="cart-total">Sub Total: <span>$198</span></div>
+										<ul class="btns-boxed">
+											<li><a href="shoping-cart.html">View Cart</a></li>
+											<li><a href="checkout.html">CheckOut</a></li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+							
+							<div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div>
+							
+							-->
+						   <% if(account != "NaN") { %>
+								<div class="btn-box" style="margin-top: 7px;">
+									<a href="/dashboard" class="quote-btn btn-style-three"><span class="txt">Panel</span></a>
+								</div>
+							<% } else { %>
+								<div class="btn-box">
+									<a href="/login" class="quote-btn btn-style-four"><span class="txt">Giriş Yap</span></a>
+								</div>
+							<% } %>
+							
+						</div>
+					</div>
+                    
+                </div>
+				
+            </div>
+        </div>
+        <!--End Header Upper-->
+		<!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="/" title="" class="alt_baslik"></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+					
+					<!-- Main Menu End-->
+					<div class="outer-box clearfix">
+					
+						<!-- Cart Box -->
+					</div>
+					
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><!--<a href="/"><img src="/anasayfa/images/logo-2.png" alt="" title=""></a>--></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+	
+    </header>
+    <!-- End Main Header -->
+	
+	<!-- Sidebar Cart Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black"></div>
+		<div class="xs-sidebar-widget">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget">
+						X
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+					
+					<!-- Sidebar Info Content -->
+					<div class="sidebar-info-contents">
+						<div class="content-inner">
+							<div class="logo">
+							<!--	<a href="/"><img src="/anasayfa/images/logo.png" alt="" /></a> -->
+							</div>
+							<div class="content-box">
+								<h2>About Us</h2>
+								<p class="text">The argument in favor of using filler text goes something like this: If you use real content in the Consulting Process, anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</p>
+								<a href="#" class="theme-btn btn-style-two"><span class="txt">Consultation</span></a>
+							</div>
+							<div class="contact-info">
+								<h2>Contact Info</h2>
+								<ul class="list-style-one">
+									<li><span class="icon fa fa-location-arrow"></span>Chicago 12, Melborne City, USA</li>
+									<li><span class="icon fa fa-phone"></span>(111) 111-111-1111</li>
+									<li><span class="icon fa fa-envelope"></span>meto@gmail.com</li>
+									<li><span class="icon fa fa-clock-o"></span>Week Days: 09.00 to 18.00 Sunday: Closed</li>
+								</ul>
+							</div>
+							<!-- Social Box -->
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END sidebar widget item -->
+	
+	<!-- Banner Section Three -->
+    <section class="banner-section-three">
+		<!-- Social Box -->
+		
+		<div class="pattern-layer-one" style="background-image: url(images/icons/pattern-1.png)"></div>
+		<div class="patern-layer-two" style="background-image: url(images/background/pattern-1.png)"></div>
+		<div class="pattern-layer-three" style="background-image: url(images/background/pattern-5.png)"></div>
+		<div class="main-slider-carousel owl-carousel owl-theme">
+            
+            <div class="slide">
+				<div class="auto-container">
+					<div class="row clearfix">
+					
+						<!-- Content Column -->
+						<div class="content-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="title">Kalitenin Adresine Hoş Geldiniz</div>
+								<h1>Sosyal Medyada Büyük Kitlelere mi Hitap Etmek İstiyorsunuz?</h1>
+								<div class="text">Tüm Sosyal Medya Platformlarını Tek Panelde Bir Araya Getirdik  Sizde Kaliteli, Garantili Ve Ucuza Panelinizi Yönetebilirsiniz #1 Numaralı <%= config.site.name %> Gelişmiş Kadrosu İle Hizmetinizdeyiz. </div>
+								<div class="btns-box">
+									<a href="/dashboard" class="theme-btn btn-style-one"><span class="txt">Hitap Etmeye Hazırım</span></a>
+									<a href="https://www.youtube.com/watch?v=Und-ttiYj_A" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Image Column -->
+						<div class="image-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="image">
+									<img src="/anasayfa/images/resource/banner-2.png" alt=""/>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="slide">
+				<div class="auto-container">
+					<div class="row clearfix">
+					
+						<!-- Content Column -->
+						<div class="content-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="title">Kalitenin Adresine Hoş Geldiniz</div>
+								<h1>YouTube'da Gelişmek Mi İstiyorsunuz?  <%= config.site.name %> Tam Size Göre</h1>
+								<div class="text">Videolarınız Çok Az Mı İzleniyor O Zaman YouTube Paketimiz Tam Size Göre Hemen Giriş Yapın Ve Kendinizi Geliştirin! </div>
+								<div class="btns-box">
+									<a href="/dashboard" class="theme-btn btn-style-one"><span class="txt">Hitap Etmeye Hazırım</span></a>
+									<a href="https://www.youtube.com/watch?v=Und-ttiYj_A" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Image Column -->
+						<div class="image-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="image">
+									<img src="/anasayfa/images/resource/banner-youtube.png" alt="" />
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="slide">
+				<div class="auto-container">
+					<div class="row clearfix">
+					
+						<!-- Content Column -->
+						<div class="content-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="title">Kalitenin Adresine Hoş Geldiniz</div>
+								<h1>Instagram'da Daha Fazla Kişiye Erişmek İster misin?  <%= config.site.name %> Tam Size Göre</h1>
+								<div class="text">Çeşitli Kategorilerde Keşfete Düşme Servislerimizi Ucuz Bir Şekilde Satın Alabilirsiniz
+Artık Keşfetin Kralı Olmak 2 Tık Yakınında!
+ </div>
+								<div class="btns-box">
+									<a href="/dashboard" class="theme-btn btn-style-one"><span class="txt">Hitap Etmeye Hazırım</span></a>
+									<a href="https://www.youtube.com/watch?v=Und-ttiYj_A" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Image Column -->
+						<div class="image-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="image">
+									<img src="/anasayfa/images/resource/banner-insta.png" alt="" />
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--Waves Container-->
+        <div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+          </svg>
+        </div>
+        <!--Waves end-->
+	</section>
+	<!--End Banner Section-->
+	
+	<!-- SEO Section Three -->
+    <section class="seo-section-three">
+        <div class="auto-container">
+            <div class="row clearfix">
+				
+				<!-- Image Column -->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column parallax-scene-1">
+						<div class="image" data-depth="0.30">
+							<img src="/anasayfa/images/resource/seo-1.png" alt="" />
+						</div>
+					</div>
+				</div>
+				
+				<!-- Content Column -->
+				<div class="content-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Sec Title -->
+						<div class="sec-title">
+							<div class="title">Misyonumuz</div>
+							<h2>Misyonumuz sizin daha fazla kişiye ulaşmanız sağlamak</h2>
+							<!--<div class="text">Smratseo is a brand of digital agency. Competen novate synergstic vortas through forward strategic theme areas Compelling extend super was that Proactive myocardinate vertical strategic</div>-->
+						</div>
+						<ul class="seo-list">
+							<li><span class="icon flaticon-check-symbol"></span>İlk Adım Olarak Web Sitemize Kayıt Olun! </li><br>
+							<li><span class="icon flaticon-check-symbol"></span>İkinci Adım Olarak Bakiye Yükleyin!</li><br>
+							<li><span class="icon flaticon-check-symbol"></span>Son Adım İstediğiniz Bir SMM Ürününü Sipariş Edin!</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+        </div>
+    </section>
+    <!-- End SEO Section Three -->
+	
+	<!-- Level Section -->
+    <section class="level-section">
+        <div class="auto-container">
+            <div class="inner-container">
+				<div class="pattern-one" style="background-image: url(images/background/pattern-9.png)"></div>
+				<a href="https://www.youtube.com/watch?v=Und-ttiYj_A" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
+				<div class="clearfix">
+					
+					<div class="pull-left">
+						<h2>İşinizi bir sonraki <br> seviyeye çıkarın!</h2>
+					</div>
+					
+					<div class="pull-right">
+						<div class="rocket-image">
+							<img src="/anasayfa/images/icons/rocket-1.png" alt="" />
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Level Section -->
+	
+	<!-- 
+    <section class="services-section-five">
+		<div class="pattern-layer-one" style="background-image: url(images/background/service-pattern-3.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url(images/background/service-pattern-4.png)"></div>
+		<div class="gradient-layer"></div>
+		<div class="auto-container">
+		
+			<div class="sec-title centered">
+				<div class="title">Hizmetlerimiz</div>
+				<h2>You Take Growth For Business</h2>
+				<div class="text">Our strategy includes consistently evolving, to ensure we’re <br> producing exceptional SEO for business.</div>
+			</div>
+			
+			<div class="row clearfix">
+				
+				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-statistics"></span>
+							<div class="circles-box">
+								<span class="circle-one"></span>
+								<span class="circle-two"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="left-pattern"></div>
+							<div class="right-pattern"></div>
+							<h4><a href="services-detail.html">Content Marketing</a></h4>
+							<div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-presentation"></span>
+							<div class="circles-box">
+								<span class="circle-one"></span>
+								<span class="circle-two"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="left-pattern"></div>
+							<div class="right-pattern"></div>
+							<h4><a href="services-detail.html">Social Marketing</a></h4>
+							<div class="text">Create and manage top-performing social campaigns and start developing a dedicated customer fan base.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-chart"></span>
+							<div class="circles-box">
+								<span class="circle-one"></span>
+								<span class="circle-two"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="left-pattern"></div>
+							<div class="right-pattern"></div>
+							<h4><a href="services-detail.html">App Development</a></h4>
+							<div class="text">Create, publish, and promote engaging content to generate more traffic and build a dedicated community.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-statistics"></span>
+							<div class="circles-box">
+								<span class="circle-one"></span>
+								<span class="circle-two"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="left-pattern"></div>
+							<div class="right-pattern"></div>
+							<h4><a href="services-detail.html">Web Development</a></h4>
+							<div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-presentation"></span>
+							<div class="circles-box">
+								<span class="circle-one"></span>
+								<span class="circle-two"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="left-pattern"></div>
+							<div class="right-pattern"></div>
+							<h4><a href="services-detail.html">SEO Optimization</a></h4>
+							<div class="text">Create and manage top-performing social campaigns and start developing a dedicated customer fan base.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="service-block-five col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-chart"></span>
+							<div class="circles-box">
+								<span class="circle-one"></span>
+								<span class="circle-two"></span>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="left-pattern"></div>
+							<div class="right-pattern"></div>
+							<h4><a href="services-detail.html">PPC Advertising</a></h4>
+							<div class="text">Create, publish, and promote engaging content to generate more traffic and build a dedicated community.</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="btn-box centered">
+				<a href="services.html" class="theme-btn btn-style-three"><span class="txt">View Service</span></a>
+			</div>
+			
+		</div>
+	</section>
+   -->
+	
+	<!-- Counter Section Three -->
+	<section class="counter-section-three">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Counter Column -->
+				<div class="counter-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Sec Title -->
+						<div class="sec-title">
+							<div class="title">İstatistiklerimiz</div>
+							<!--
+                        <h2>Expect Great Things from <br> Your SEO Agency</h2>
+							<div class="text">We know how important customer experience is for  <br> a busines and therefore, we trive to make your company <br> excel in this.</div>
+                     -->
+						</div>
+						
+						<!-- Fact Counter -->
+						<div class="fact-counter-two style-two">
+							<div class="row clearfix">
+
+								<!-- Column -->
+								<div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+										<div class="content">
+											<div class="icon-box">
+												<span class="icon"><img src="/anasayfa/images/icons/counter-1.png" alt="" /></span>
+											</div>
+											<div class="count-outer count-box">
+												<span class="count-text" data-speed="3000" data-stop="547">0</span>+
+											</div>
+											<h4 class="counter-title">Kullanıcı Sayısı</h4>
+										</div>
+									</div>
+								</div>
+
+								<!-- Column -->
+								<div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+										<div class="content">
+											<div class="icon-box">
+												<span class="icon"><img src="/anasayfa/images/icons/counter-2.png" alt="" /></span>
+											</div>
+											<div class="count-outer count-box alternate">
+												<span class="count-text" data-speed="5000" data-stop="99.9">0</span>%
+											</div>
+											<h4 class="counter-title">Memnuniyet</h4>
+										</div>
+									</div>
+								</div>
+
+								<!-- Column -->
+								<div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+										<div class="content">
+											<div class="icon-box">
+												<span class="icon"><img src="/anasayfa/images/icons/counter-3.png" alt="" /></span>
+											</div>
+											<div class="count-outer count-box">
+												<span class="count-text" data-speed="2000" data-stop="850">0</span>+
+											</div>
+											<h4 class="counter-title">Sipariş</h4>
+										</div>
+									</div>
+								</div>
+
+								<!-- Column -->
+								<div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+										<div class="content">
+											<div class="icon-box">
+												<span class="icon"><img src="/anasayfa/images/icons/counter-4.png" alt="" /></span>
+											</div>
+											<div class="count-outer count-box">
+												<span class="count-text" data-speed="3500" data-stop="1">0</span>+
+											</div>
+											<h4 class="counter-title">Yıllık Tecrübe</h4>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<!-- Image Column -->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column parallax-scene-2">
+						<div class="image" data-depth="0.30">
+							<img src="/anasayfa/images/resource/counter.png" alt="" />
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Counter Section Three -->
+	
+	<!-- Team Section Three -->
+	<!-- End Team Section Three -->
+	
+	<!-- Faq's Section -->
+    <section class="faq-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+				
+				<!-- Image Column -->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column parallax-scene-3">
+						<div class="image" data-depth="0.30">
+							<img src="/anasayfa/images/resource/faq.png" alt="" />
+						</div>
+					</div>
+				</div>
+				
+				<!-- Accordian Column -->
+				<div class="accordian-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column"  id="faqs">
+						<!-- Sec Title -->
+						<div class="sec-title">
+							<div class="title">Sıkça Sorulan Sorular</div>
+							<!--
+                        <h2>Work with a Dedicated <br> SEO Company</h2>
+							   <div class="text">Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors in play.</div>
+                     -->
+						</div>
+						
+						<!-- Accordian Box -->
+						<ul class="accordion-box">
+
+							<!--Block-->
+							<li class="accordion block">
+								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>Siparişim neden iptal edildi?</div>
+								<div class="acc-content">
+									<div class="content">
+										<div class="text">Sipariş iptali sunucu yoğunluğuna ya da hesabınız herkese açık değilse otomatik olarak iptal olabilmektedir. Bilgi almak için destek bildirimi oluşturabilirsiniz.</div>
+									</div>
+								</div>
+							</li>
+
+							<!--Block-->
+							<li class="accordion block active-block">
+								<div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>SMM PANEL NEDİR?</div>
+								<div class="acc-content current">
+									<div class="content">
+										<div class="text">SMM Panel, bayilik sistemiyle çalışan, (API) beğeni, izlenme, yorum, takipçi vb. servisleri içerisinde barındıran sistemlerdir. SMM Panellerine e-posta ve telefon numarası ile kaydolduktan sonra üyeye özel bir hesap oluşturulur. Smm panele üye olan kullanıcı, bakiye yükleyerek smm panelde satışı yapılan servislerden satın alabilir.</div>
+									</div>
+								</div>
+							</li>
+							
+							<!--Block-->
+							<li class="accordion block">
+								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>Hesabım Risk Altında Mı?</div>
+								<div class="acc-content">
+									<div class="content">
+										<div class="text">Panelimiz üzerinden verilen siparişlerin sosyal medya hesaplarına olan etkisini an ve an kayıt ediyor ve gözlemliyoruz. Bilmenizi isteriz ki panelimiz uygulamaya girdiği tarihten itibaren, kullanıcılarımız tarafından kötüye kullanım olmadığı sürece hesaplarda herhangi bir risk gözlemlemedik. Fakat oluşacak herhangi bir problemden dolayı panelimizin hiçbir sorumluluğu almadığını bilmenizi isteriz.</div>
+									</div>
+								</div>
+							</li>
+							
+							<!--Block-->
+							<li class="accordion block">
+								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>Hangi ödeme türlerini kabul ediyorsunuz?</div>
+								<div class="acc-content">
+									<div class="content">
+										<div class="text">Dünya üzerindeki tüm bankalar geçerlidir!</div>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Faq's Section -->
+	
+	
+	<!-- Call To Action Section -->
+	<section class="call-to-action-section" style="background-image: url(images/background/map-pattern.png)">
+		<div class="dotted-layer" style="background-image: url(images/background/pattern-11.png)"></div>
+		
+		<div class="icon-layer" style="background-image: url(images/icons/cross-icon.png)"></div>
+		<div class="icon-layer-two" style="background-image: url(images/icons/icon-1.png)"></div>
+		<div class="icon-layer-three" style="background-image: url(images/icons/icon-2.png)"></div>
+		<div class="icon-layer-four" style="background-image: url(images/icons/icon-1.png)"></div>
+		
+		<div class="auto-container">
+			<div class="title">Daha Fazlası İçin</div>
+			<h2>İşinizi Büyütmek İstiyorsanız Hemen Bize Katılın!</h2>
+			<a href="/register" class="theme-btn btn-style-three"><span class="txt">Aramıza Katıl!</span></a>
+		</div>
+	</section>
+	<!-- End Call To Action Section -->
+	
+	<!-- Contact Info Section -->
+	<section class="contact-info-section margin-bottom">
+		<div class="auto-container">
+			<div class="inner-container">
+				<ul class="list">
+					<li>
+						<span class="icon flaticon-placeholder-4"></span>
+						<strong>TR</strong>
+						Ankara, TR
+					</li>
+					<li>
+						<!-- <span class="icon flaticon-phone-call"></span>
+						<strong>000-000-0000</strong>
+						Give us a call -->
+					</li>
+					<li>
+						<span class="icon flaticon-message-1"></span>
+						<strong><%= config.site.support_mail %></strong>
+						Get in Touch
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Info Section -->
+	
+	<!-- Main Footer -->
+    <footer class="main-footer style-two">
+		<!--Waves end-->
+    	<div class="auto-container">
+        	<!--Widgets Section-->
+            <div class="widgets-section">
+            	<div class="row clearfix">
+                	
+                    <!-- Column -->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+						<div class="row clearfix">
+						
+                        	<!-- Footer Column -->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+									<div class="logo">
+										<a href="/" style="font-size: 36px; color: #fff; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> <%= config.site.name %></a>
+									</div>
+									<div class="text">Tüm Sosyal Medya Platformlarını Tek Panelde Bir Araya Getirdik  Sizde Kaliteli, Garantili Ve Ucuza Panelinizi Yönetebilirsiniz #1 Numaralı  <%= config.site.name %> Gelişmiş Kadrosu İle Hizmetinizdeyiz.</div>
+									<!-- Social Box -->
+									<ul class="social-box">
+									</ul>
+								</div>
+							</div>
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<!--
+                              <h4>Useful Links</h4>
+                              <ul class="list-link">
+                                 <li><a href="#">About us</a></li>
+                                 <li><a href="#">Services</a></li>
+                                 <li><a href="#">Projects</a></li>
+                                 <li><a href="#">Our Team</a></li>
+                                 <li><a href="#">Contact Us</a></li>
+                              </ul>
+                           -->
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- Column -->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+						<div class="row clearfix">
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<!--
+                              <h4>Our Service</h4>
+                              <ul class="list-link">
+                                 <li><a href="#">SEO Optimization</a></li>
+                                 <li><a href="#">Content Marketing</a></li>
+                                 <li><a href="#">Enterprise SEO</a></li>
+                                 <li><a href="#">National SEO</a></li>
+                                 <li><a href="#">International SEO</a></li>
+                              </ul>
+                           -->
+								</div>
+							</div>
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget subscribe-widget">
+									<h4>Abonelik</h4>
+									<div class="text">Güncellemelerden ve duyurulardan haberdar olmak için e-posta adresinizi girebilirsiniz.</div>
+									<div class="newsletter-form">
+										<form method="post" action="/">
+											<div class="form-group">
+												<input type="email" name="email" value="" placeholder="Your Email" required="">
+												<button type="submit" class="theme-btn submit-btn"><span class="txt flaticon-send"></span>&nbsp; Gönder</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				
+				</div>
+			</div>
+			
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="copyright">Copyright © 2022 <a href="/terms"> <%= config.site.name %></a> All Rights Reserved.</div>
+			</div>
+			
+		</div>
+	</footer>
+	<!-- End Main Footer -->
+	
+</div>
+<!--End pagewrapper-->
+
+<!-- Color Palate / Color Switcher -->
+
+<!--
+   <div class="color-palate">
+    <div class="color-trigger">
+        <i class="fa fa-gear"></i>
+    </div>
+    <div class="color-palate-head">
+        <h6>Choose Your Color</h6>
+    </div>
+	
+	<ul class="rtl-version option-box"> <li class="rtl">RTL Version</li> <li>LTR Version</li> </ul>
+	
+    <a href="#" class="purchase-btn">Purchase now $17</a>
+    
+    <div class="palate-foo">
+        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
+    </div>
+
+</div>
+
+-->
+<!-- Search Popup -->
+<div class="search-popup">
+	<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
+	<button class="close-search"><span class="flaticon-up-arrow-1"></span></button>
+	<form method="post" action="https://expert-themes.com/html/meto/blog.html">
+		<div class="form-group">
+			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+	</form>
+</div>
+<!-- End Header Search -->
+
+<!--Scroll to top-->
+<!--Start of Tawk.to Script-->
+
+<!--End of Tawk.to Script-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+<script src="/anasayfa/js/jquery.js"></script>
+<script src="/anasayfa/js/popper.min.js"></script>
+<script src="/anasayfa/js/bootstrap.min.js"></script>
+<script src="/anasayfa/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/anasayfa/js/jquery.fancybox.js"></script>
+<script src="/anasayfa/js/appear.js"></script>
+<script src="/anasayfa/js/parallax.min.js"></script>
+<script src="/anasayfa/js/tilt.jquery.min.js"></script>
+<script src="/anasayfa/js/jquery.paroller.min.js"></script>
+<script src="/anasayfa/js/owl.js"></script>
+<script src="/anasayfa/js/mixitup.js"></script>
+<script src="/anasayfa/js/wow.js"></script>
+<script src="/anasayfa/js/nav-tool.js"></script>
+<script src="/anasayfa/js/jquery-ui.js"></script>
+<script src="/anasayfa/js/script.js"></script>
+<script src="/anasayfa/js/color-settings.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script>
+        let urlParams = new URLSearchParams(window.location.search);
+        if(urlParams.get('error') == 'true') {
+         //?message=xxx
+         let msg = urlParams.get('message');
+            Swal.fire({
+               icon: 'error',
+               title: 'Oops...',
+               text: `${msg}`,
+               footer: 'Tüm Hakları Saklıdır.'
+            })
+        }
+        if(urlParams.get('success') == 'true') {
+         //?message=xxx
+         let msg = urlParams.get('message');
+            Swal.fire({
+               icon: 'success',
+               title: 'Başarılı',
+               text: `${msg}`,
+               footer: 'Tüm Hakları Saklıdır.'
+            })
+        }
+      </script>
+</body>
+
+<!-- Mirrored from expert-themes.com/html/meto/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Jun 2021 18:30:27 GMT -->
+</html>
