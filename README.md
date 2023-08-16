@@ -1,7 +1,12 @@
-# SpeedSmm_V2
-SpeedSmm Versiyon 2 Kaynak Kodları - SMM PANEL
+# SpeedSmm V2 Source Codes
+SpeedSmm Versiyon 2 Kaynak Kodları - SMM PANEL / SpeedSmm Version 2 Source Codes - SMM PANEL
 
-## Resimler
+# ✨Features and projects to be added as stars arrive✨
+
+- ~~SpeedSmm v1~~ [Done GitHub Link](https://github.com/fastuptime/SpeedSmm_V1_Kaynak_Kodlari)
+- ~~SpeedSmm v2 > 9 Star ✨~~ [Done GitHub Link](https://github.com/fastuptime/SpeedSmm_v2)
+
+# 🎈 Images 🎈
 
 ![image](https://user-images.githubusercontent.com/63351166/220417324-9d8bbe45-ae3f-4930-9558-05435ab20bd8.png)
 ![image](https://user-images.githubusercontent.com/63351166/220417341-8259a7b2-e144-449e-afac-02f74a1cafd7.png)
@@ -3290,12 +3295,17 @@ SpeedSmm Versiyon 2 Kaynak Kodları - SMM PANEL
 ```
 
 ---
-- ✨ [Destek İçin](https://fastuptime.com) <br>
+- ✨ [For Support](https://github.com/sponsors/fastuptime) <br>
 - 💕 [Discord](https://fastuptime.com/discord)<br>
-- 🎖️ [FasterHost Technology](https://fasterhost.tech/)<br>
-- ✨ İletişim için [Tıkla!](mailto:fastuptime@gmail.com)<br>
+- 🏓 [Fast Uptime](https://fastuptime.com/)<br>
+- 🪄 All kinds of projects are made <br>
+- 🧨 You can contact us to make a paid project<br>
+- 💸 You can contact for paid installation<br>
+- ☄️ [Click For Contact](mailto:fastuptime@gmail.com)<br>
 
-# License
-- Its protected by Creative Commons ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
+# 🎯 License 🎯
+- ⚖️ Its protected by Creative Commons ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
+
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="BYNCSA40"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"></a>
 
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="BYNCSA40"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"></a>
