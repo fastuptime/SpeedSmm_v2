@@ -15,7 +15,6 @@ SpeedSmm Versiyon 2 Kaynak Kodları - SMM PANEL / SpeedSmm Version 2 Source Code
 ![image](https://user-images.githubusercontent.com/63351166/220417380-39514cbf-1cdd-4838-8484-752feaff9aaa.png)
 ![image](https://user-images.githubusercontent.com/63351166/220417397-15231951-13fa-4ac3-9662-81a3b7c8f3d6.png)
 ![image](https://user-images.githubusercontent.com/63351166/220417412-7e5d566f-e084-4413-ab9e-d30919ad8805.png)
-
 ![image](https://user-images.githubusercontent.com/63351166/220417426-77dcdb24-7ffe-4e7a-9e63-ceabac9c1617.png)
 
 
