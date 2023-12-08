@@ -117,6 +117,7 @@ module.exports = function (app, hesap) {
                 maxAge: 1000 * 60 * 60 * 24 * 5,
                 httpOnly: true,
             });
+            res.redirect("/login?message=Kayıt işlemi başarılı. Giriş yapabilirsiniz.");
         });
         
         
