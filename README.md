@@ -6,7 +6,10 @@ SpeedSmm Versiyon 2 Kaynak Kodları - SMM PANEL / SpeedSmm Version 2 Source Code
 - ~~SpeedSmm v1~~ [Done GitHub Link](https://github.com/fastuptime/SpeedSmm_V1_Kaynak_Kodlari)
 - ~~SpeedSmm v2 > 9 Star ✨~~ [Done GitHub Link](https://github.com/fastuptime/SpeedSmm_v2)
 - ~~SpeedSmm v3 > 19 Star ✨~~ [Done GitHub Link](https://github.com/fastuptime/SpeedSmm_v3)
-  
+
+
+https://www.youtube.com/watch?v=ckai5DFoSgI
+
 # 🎈 Images 🎈
 
 ![image](https://user-images.githubusercontent.com/63351166/220417324-9d8bbe45-ae3f-4930-9558-05435ab20bd8.png)
