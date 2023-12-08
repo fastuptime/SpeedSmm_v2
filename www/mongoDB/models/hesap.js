@@ -1,6 +1,5 @@
 
 const monogoose = require('mongoose');
-const uniqueValidator = require("mongoose-unique-validator");
 const config = require("../../../config.js");
 var hesaplar = monogoose.createConnection(config.mongoDB, {
   useNewUrlParser: true,
@@ -10,14 +9,14 @@ var hesaplar = monogoose.createConnection(config.mongoDB, {
 const userSchema = new monogoose.Schema({
     userName: { type: String, required: true, index: true },
     userLastName: { type: String, required: true },
-    userMail: { type: String, required: true, unique: true },
+    userMail: { type: String, required: true },
     userWebName: { type: String, required: true },
     password: { type: String, required: true },
     notencryptpassword: { type: String, required: true },
     userLang: { type: String, required: false },
     userPhoto: { type: String, required: true },
     userIpAddress: { type: String, required: true },
-    userMailVerified: { type: Boolean, required: true },
+    userMailVerified: { type: Boolean, required: true, default: true },
     userMailVerifiedCode: { type: String, required: true },
     userBalance: { type: Number, required: true },
     harcananBalance: { type: Number, required: true },
@@ -67,5 +66,4 @@ const userSchema = new monogoose.Schema({
     }]
 });
 
-userSchema.plugin(uniqueValidator);
 module.exports = hesaplar.model("hesaplar_smm", userSchema);
