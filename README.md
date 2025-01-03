@@ -1,3 +1,7 @@
+## ✨ SPEEDSMM VERSIYON 5 YAYINDA 1 AYLIK UCRETSIZ KULLANIM ICIN [TIKLA](https://speedsmm.com) ✨
+
+## ✨ SPEEDSMM VERSION 5 IS LIVE FOR 1 MONTH FREE USE [CLICK](https://speedsmm.com) ✨
+
 # SpeedSmm V2 Source Codes
 SpeedSmm Versiyon 2 Kaynak Kodları - SMM PANEL / SpeedSmm Version 2 Source Codes - SMM PANEL
 
